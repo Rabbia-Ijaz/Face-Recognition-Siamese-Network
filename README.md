@@ -30,5 +30,5 @@ Face recognition with Siamese Network
     In the loss function we sent the three images the anchor image the positive image and the negative that resulted from extracting triplet from the datasets.We calculated the euclidean distance first between, the anchor image and the positive image then between the anchor image and the negative image Subtracted the positive euclidean distance from the negative euclidean distance. Then we calculated the max(dist_pos_anch-dist_neg_anch,0) so that if the value is -ive it returns 0 otherwise the loss calculated is returned.
 
 ### TESTING
-        We send a triplet of images into the neural network to calculate the euclidean distances as done in the loss function. Increment count by one each type the loss is zero. Divide the resultant by the total number of triplets and multiplied them by 100 to get our accuracy. With the current adjustments our model gives us the accuracy of 80.
+    We send a triplet of images into the neural network to calculate the euclidean distances as done in the loss function. Increment count by one each type the loss is zero. Divide the resultant by the total number of triplets and multiplied them by 100 to get our accuracy. With the current adjustments our model gives us the accuracy of 80.
 
