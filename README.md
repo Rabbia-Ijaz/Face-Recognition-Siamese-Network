@@ -8,7 +8,7 @@ Face recognition with Siamese Network
 
     1. To access the dataset from the shareable link of the drive, copy and paste the link below in your browser.
 
-    https://drive.google.com/drive/folders/1OJ_-xTedx0kQE4AEuMOX0fC9IoorQwK5?usp=sharing
+  https://drive.google.com/drive/folders/1OJ_-xTedx0kQE4AEuMOX0fC9IoorQwK5?usp=sharing
 
     2. To use the data set to run the project use the following pattern to mount the dataset on the drive, make sure that the dataset in the following path:
 
